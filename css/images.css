@@ -1,0 +1,16 @@
+img {
+    width: 30%;
+    height: 30%;
+    border: 3px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+li {
+    padding: 20px;
+}

@@ -1,0 +1,80 @@
+.navbar {
+	background-color: black ; 
+	position: -webkit-sticky; 
+	position: sticky; 
+	top: 0px; 
+	height: 49px;
+	width: 100%;
+	padding: 0px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar a {
+	background-color: black; 
+	position: sticky;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	width: 250px;
+	padding: 11px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: center;
+	font-size: 24px;
+	overflow: visible;
+}
+
+.navbar a:hover {
+	background-color: lightgrey;
+	color: black;
+}
+
+#header {
+	background-color: white;
+	text-align: center;
+	font-size: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.page {
+	background-color: lightgrey;
+	position: static;
+  	top: 150px; 
+  	white-space: normal;
+	margin: auto;
+	width: 75%;
+	padding: 15px;
+	line-height: 1.6;
+}
+
+#content {
+	display: flex;
+	line-height: 1.8;
+	padding: 15px;
+}
+
+a.name {
+	text-decoration: none;
+	color: black;
+}
+
+p.default {
+	line-height: 5;
+	padding: 10px;
+	font: 16px Times, serif
+}
+
+p.head {
+	text-align: center;
+	font: 32px Times, serif
+}
+
+img.about {
+    width: 15%;
+    height: 15%;
+    border: 3px solid black;
+}
