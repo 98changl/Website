@@ -1,34 +1,36 @@
-.navbar {
-	background-color: black ; 
-	position: -webkit-sticky; 
-	position: sticky; 
-	top: 0px; 
-	height: 49px;
-	width: 100%;
-	padding: 0px;
-	border: 2px solid black;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.navbar a {
-	background-color: black; 
+ul#nav {
+	background-color: black;
+	position: -webkit-sticky;
 	position: sticky;
-	float: left;
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	width: 250px;
-	padding: 11px;
-	text-decoration: none;
-	text-align: center;
-	vertical-align: center;
-	font-size: 24px;
-	overflow: visible;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 0px;
+	width: 100%;
 }
 
-.navbar a:hover {
+li#tab {
+	float: left;
+	width: 250px;
+	height: 50px;
+	padding: 0;
+}
+
+li#tab:hover {
 	background-color: lightgrey;
+}
+
+li#tab a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 12px 5px;
+	font-size: 24px;
+}
+
+li#tab:hover a {
 	color: black;
 }
 
