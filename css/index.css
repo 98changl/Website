@@ -47,6 +47,7 @@ div.page {
   	white-space: normal;
 	margin: auto;
 	width: 75%;
+	height: 100%;
 	padding: 15px;
 	line-height: 1.6;
 }
@@ -74,7 +75,7 @@ p.head {
 }
 
 img.about {
-    width: 15%;
+    width: 250px;
     height: 15%;
     border: 3px solid black;
 }
