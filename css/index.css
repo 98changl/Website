@@ -49,6 +49,7 @@ div.page {
   	white-space: normal;
 	margin: auto;
 	width: 75%;
+	height: 100vh;
 	padding: 15px;
 	line-height: 1.6;
 }
